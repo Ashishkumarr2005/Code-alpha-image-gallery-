@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>My Image Gallery</h1>
+    <p>Explore beautiful moments</p>
+  </header>
+
+  <div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+    <button onclick="filterImages('travel')">Travel</button>
+  </div>
+
+  <div class="gallery">
+
+    <div class="card nature">
+      <img src="https://picsum.photos/id/10/800/600" alt="Nature">
+      <h3>Green Nature</h3>
+    </div>
+
+    <div class="card city">
+      <img src="https://picsum.photos/id/1031/800/600" alt="City">
+      <h3>City View</h3>
+    </div>
+
+    <div class="card travel">
+      <img src="https://picsum.photos/id/1015/800/600" alt="Travel">
+      <h3>Mountain Trip</h3>
+    </div>
+
+    <div class="card nature">
+      <img src="https://picsum.photos/id/1020/800/600" alt="Forest">
+      <h3>Beautiful Forest</h3>
+    </div>
+
+    <div class="card city">
+      <img src="https://picsum.photos/id/1011/800/600" alt="City">
+      <h3>Urban Life</h3>
+    </div>
+
+    <div class="card travel">
+      <img src="https://picsum.photos/id/1040/800/600" alt="Road">
+      <h3>Road Trip</h3>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
